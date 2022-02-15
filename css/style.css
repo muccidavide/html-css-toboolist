@@ -24,7 +24,10 @@
 
 
 /* General */
-
+section{
+    margin-top: 2rem;
+    
+}
 
 /* Header */
 .header_site{
@@ -53,14 +56,6 @@
     margin: 20px auto;
 }
 
-.section_newtask{
-    margin-top: 2rem;
-}
-
-.newtask_title{
-    margin-bottom: 0.5rem;
-}
-
 #button_task{
     font-size: 1rem;
     background-color: #4cb2df;
@@ -79,9 +74,24 @@
     padding: 0.65rem 1rem;
 }
 
+.task{
+    margin-top: 1rem;
+}
+
 .done_box{
+    margin-right: 0.3rem;
     font-size: 0.50rem;
     color: rgb(23, 231, 23);
+    border: solid thin;
+    border-radius: 50% 50%;
+    display: inline-block;
+    padding: 0.2rem
+}
+
+.undone_box{
+    margin-right: 0.3rem;
+    font-size: 0.50rem;
+    color: red;
     border: solid thin;
     border-radius: 50% 50%;
     display: inline-block;
@@ -92,9 +102,38 @@
     font-size: 0.8rem;
     background-color: #4cb2df;
     color: white;
-    border-radius: 5px;
-    border: solid thin #4cb2df ;
-    padding: 0.1rem 0.5rem
-    
+    border-radius: 10px;
+    border: solid thin #4cb2df;
+    padding: 0.2rem 0.5rem;
+}
+
+.button_goals{
+
+    font-size: 0.8rem;
+    background-color: #bd6bbf;;
+    color: white;
+    border-radius: 10px;
+    border: solid thin #bd6bbf;
+    padding: 0.2rem 0.5rem;
+}
+
+.button_recruiting{
+
+    font-size: 0.8rem;
+    background-color: #64c0a9;
+    color: white;
+    border-radius: 10px;
+    border: solid thin #64c0a9;
+    padding: 0.2rem 0.5rem;
+}
+
+.button_mobile{
+
+    font-size: 0.8rem;
+    background-color: #f29e33;
+    color: white;
+    border-radius: 10px;
+    border: solid thin #f29e33;
+    padding: 0.2rem 0.5rem;
 }
     
