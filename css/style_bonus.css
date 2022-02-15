@@ -7,7 +7,18 @@
 }
 /* Utilities */
 
-
+:root{
+    --add_task-color:#4EA0FF;
+    --ed-color: #a71eb1;
+    --add_section-color:#5ec56e;
+    --q1-color: #d32e2e;
+    --rec-color: #2f5bdf;
+    --mobile-color: #ebb570;
+    --web-color: #52d1ee;
+    --sales-color: #7cbf9c;
+    --h2-color: #d36322;
+}
+    
 /* Colors
 
 Editorial:#4cb2df;
@@ -22,10 +33,15 @@ Sales: #b0c926;
 
 
 /* General */
+
 section{
-    margin-top: 2rem;
+    margin: 1rem;
     display: inline-block;
-    
+ 
+}
+
+h2{
+    color: var(--h2-color);
 }
 
 /* Header */
@@ -51,25 +67,26 @@ section{
 /* Main */
 
 .main_site{
-    width: 900px;
+    width: 1000px;
     margin: 20px auto;
+
 }
 
 #button_task{
     font-size: 0.7rem;
-    background-color: #4cb2df;
+    background-color: var(--add_task-color);
     color: white;
     border-radius: 5px;
-    border: solid thin #4cb2df;
+    border: solid thin var(--add_task-color);
     padding: 0.3rem 0.5rem;
 }
 
 #button_section{
     font-size: 0.7rem;
     background-color: white;
-    color:#c0cccf;
+    color:var(--add_section-color);
     border-radius: 5px;
-    border: solid thin #c0cccf ;
+    border: solid thin var(--add_section-color) ;
     padding: 0.3rem 0.5rem;
 }
 
@@ -104,59 +121,59 @@ section{
 .button_editorial{
     font-size: 0.6rem;
     font-weight: 600;
-    background-color: #4cb2df;
+    background-color: var(--ed-color);
     color: white;
     border-radius: 10px;
-    border: solid thin #4cb2df;
+    border: solid thin var(--ed-color);
     padding: 0.2rem 0.5rem;
 }
 
 .button_goals{
     font-size: 0.6rem;
     font-weight: 600;
-    background-color: #bd6bbf;
+    background-color:var(--q1-color);
     color: white;
     border-radius: 10px;
-    border: solid thin #bd6bbf;
+    border: solid thin var(--q1-color);
     padding: 0.2rem 0.5rem;
 }
 
 .button_recruiting{
     font-size: 0.6rem;
     font-weight: 600;
-    background-color: #64c0a9;
+    background-color: var(--rec-color);
     color: white;
     border-radius: 10px;
-    border: solid thin #64c0a9;
+    border: solid thin var(--rec-color);
     padding: 0.2rem 0.5rem;
 }
 
 .button_mobile{
     font-size: 0.6rem;
     font-weight: 600;
-    background-color: #f29e33;
+    background-color: var(--mobile-color);
     color: white;
     border-radius: 10px;
-    border: solid thin #f29e33;
+    border: solid thin var(--mobile-color);
     padding: 0.2rem 0.5rem;
 }
 
 .button_website{
     font-size: 0.6rem;
     font-weight: 600;
-    background-color: #d863a1;
+    background-color: var(--web-color);
     color: white;
     border-radius: 10px;
-    border: solid thin #d863a1;
+    border: solid thin var(--web-color);
     padding: 0.2rem 0.5rem;
 }
     
 .button_sales{
     font-size: 0.6rem;
     font-weight: 600;
-    background-color: #b0c926;
+    background-color: var(--sales-color);
     color: white;
     border-radius: 10px;
-    border: solid thin #b0c926;
+    border: solid thin var(--sales-color);
     padding: 0.2rem 0.5rem;
 }
