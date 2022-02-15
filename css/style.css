@@ -136,4 +136,23 @@ section{
     border: solid thin #f29e33;
     padding: 0.2rem 0.5rem;
 }
+
+.button_website{
+
+    font-size: 0.8rem;
+    background-color: #d863a1;
+    color: white;
+    border-radius: 10px;
+    border: solid thin #d863a1;
+    padding: 0.2rem 0.5rem;
+}
     
+.button_sales{
+
+    font-size: 0.8rem;
+    background-color: #b0c926;
+    color: white;
+    border-radius: 10px;
+    border: solid thin #b0c926;
+    padding: 0.2rem 0.5rem;
+}
