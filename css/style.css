@@ -1,7 +1,26 @@
 /* Reset */
-
+body{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
 
 /* Utilities */
+
+/* Colors 
+
+--black-squeeze: #f3fafa;
+--mako: #3c4149;
+--picton-blue: #4cb2df;
+--wisteria: #bd6bbf;
+--earls-green: #cbb837;
+--granny-smith: #90a0a5;
+--lily: #c0acbf;
+--loblolly: #c0cccf;
+--primrose: #edde9d;
+
+
+*/
 
 
 /* General */
