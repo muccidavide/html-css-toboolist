@@ -28,5 +28,21 @@ body{
 
 /* Header */
 
+.logo{
+    height: 80px;
+}
+
+.box_logo{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.header_title{
+    display: inline-block;
+    font-size: 1.5rem;
+    vertical-align: middle;
+}
 
 /* Main */
+
+.main_site
