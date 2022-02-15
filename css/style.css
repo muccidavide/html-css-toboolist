@@ -3,22 +3,20 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family:'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 /* Utilities */
 
-/* Colors 
 
---black-squeeze: #f3fafa;
---mako: #3c4149;
---picton-blue: #4cb2df;
---wisteria: #bd6bbf;
---earls-green: #cbb837;
---granny-smith: #90a0a5;
---lily: #c0acbf;
---loblolly: #c0cccf;
---primrose: #edde9d;
+/* Colors
 
-
+Editorial:#4cb2df;
+Add Button:  #c0cccf;
+Goals: #bd6bbf;
+Recruiting: #64c0a9;
+Mobile:  #f29e33;
+Website:  #d863a1;
+Sales: #b0c926;
 
 */
 
@@ -52,26 +50,30 @@ section{
 /* Main */
 
 .main_site{
-    width: 1000px;
+    width: 900px;
     margin: 20px auto;
 }
 
 #button_task{
-    font-size: 1rem;
+    font-size: 0.7rem;
     background-color: #4cb2df;
     color: white;
     border-radius: 5px;
-    border: solid thin #4cb2df ;
-    padding: 0.65rem 1rem;
+    border: solid thin #4cb2df;
+    padding: 0.3rem 0.5rem;
 }
 
 #button_section{
-    font-size: 1rem;
+    font-size: 0.7rem;
     background-color: white;
     color:#c0cccf;
     border-radius: 5px;
     border: solid thin #c0cccf ;
-    padding: 0.65rem 1rem;
+    padding: 0.3rem 0.5rem;
+}
+
+.triangle{
+    font-size: 1rem;
 }
 
 .task{
@@ -99,7 +101,8 @@ section{
 }
 
 .button_editorial{
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    font-weight: 600;
     background-color: #4cb2df;
     color: white;
     border-radius: 10px;
@@ -108,9 +111,9 @@ section{
 }
 
 .button_goals{
-
-    font-size: 0.8rem;
-    background-color: #bd6bbf;;
+    font-size: 0.6rem;
+    font-weight: 600;
+    background-color: #bd6bbf;
     color: white;
     border-radius: 10px;
     border: solid thin #bd6bbf;
@@ -118,8 +121,8 @@ section{
 }
 
 .button_recruiting{
-
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    font-weight: 600;
     background-color: #64c0a9;
     color: white;
     border-radius: 10px;
@@ -128,8 +131,8 @@ section{
 }
 
 .button_mobile{
-
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    font-weight: 600;
     background-color: #f29e33;
     color: white;
     border-radius: 10px;
@@ -138,8 +141,8 @@ section{
 }
 
 .button_website{
-
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    font-weight: 600;
     background-color: #d863a1;
     color: white;
     border-radius: 10px;
@@ -148,8 +151,8 @@ section{
 }
     
 .button_sales{
-
-    font-size: 0.8rem;
+    font-size: 0.6rem;
+    font-weight: 600;
     background-color: #b0c926;
     color: white;
     border-radius: 10px;
